@@ -1,4 +1,4 @@
-# Práctica 4.7 CSS Grid 
+# Práctica 4.6 CSS Grid 
 
 ## Parte 1
 
