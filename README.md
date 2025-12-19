@@ -47,7 +47,17 @@ Dentro del contenedor principal de la página, incluir los siguientes elementos:
   - Inclusión de títulos o descripciones en las diapositivas.
   - Uso correcto de controles y transiciones.
 
-#### c) Componentes adicionales y valorables
+#### c) Footer
+- Incluye un **footer** al final de la página utilizando componentes de Bootstrap.
+- Debe contener, al menos:
+  - Información básica (autor, curso, nombre de la web o copyright).
+  - Enlaces secundarios o iconos a redes sociales (reales o ficticios).
+- Se valorará:
+  - Que el footer mantenga coherencia visual con el resto de la página.
+  - Uso del sistema de rejilla o utilidades de Bootstrap para su maquetación.
+
+
+#### d) Componentes adicionales y valorables
 Añade varios de los siguientes componentes *Bootstrap* valorables que tengan sentido dentro de tu web, por ejemplo:
 - Cards
 - Alerts
