@@ -26,9 +26,10 @@ Deberá de incluir al menos los siguientes elementos:
     - Espaciados, bordes, sombras u otros ajustes visuales.
 
 #### 3. Contenedor principal (container)
+
 Dentro del contenedor principal de la página, incluir los siguientes elementos: 
 
-##### a) Tabla de datos
+#### a) Tabla de datos
 - Una tabla formateada con Bootstrap (`table`, `table-striped`, `table-hover`, etc.).
 - Debe contener al menos **10 filas de datos**.
 - El contenido:
@@ -46,7 +47,7 @@ Dentro del contenedor principal de la página, incluir los siguientes elementos:
   - Inclusión de títulos o descripciones en las diapositivas.
   - Uso correcto de controles y transiciones.
 
-#### d) Componentes adicionales y valorables
+#### c) Componentes adicionales y valorables
 Añade varios de los siguientes componentes *Bootstrap* valorables que tengan sentido dentro de tu web, por ejemplo:
 - Cards
 - Alerts
@@ -68,8 +69,18 @@ A partir de la página creada en la Parte 1, realiza las siguientes mejoras:
   - En pantallas grandes se mostrarán en columnas.
   - En pantallas pequeñas se adaptarán en una sola columna.
 
+#### 2. Sección de tres columnas
+- Una fila final con **tres columnas** (`row` + `col-*`) que describan:
+  - Servicios
+  - Características
+  - Funcionalidades
+- Cada columna deberá incluir:
+  - Un **icono** (por ejemplo, usando *Bootstrap Icons*).
+  - Un **título**.
+  - Una **breve descripción** relacionada con la temática.
 
-#### 2. Formulario principal
+
+#### 3. Formulario principal
 En una de las columnas incluye un **formulario completo** que contenga:
 
 - **Al menos 6 elementos de formulario**, por ejemplo:
