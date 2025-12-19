@@ -70,11 +70,12 @@ A partir de la página creada en la Parte 1, realiza las siguientes mejoras:
 #### 1. Contenedor en dos columnas
 - El contenedor principal pasará a tener **al menos dos columnas**.
 - Debe diseñarse correctamente el comportamiento **responsive**:
-  - En pantallas grandes se mostrarán en columnas.
-  - En pantallas pequeñas se adaptarán en una sola columna.
+    - En pantallas **extra grandes (XL)** se mostrará en tres columnas, una de ellas actuará como **sidebar** y solo será visible en este tamaño de pantalla.
+    - En pantallas **medianas y grandes (MD y LG)** el diseño se adaptará a dos columnas.
+    - En pantallas **pequeñas (SM y XS)** el contenido se mostrará en una única columna.
 
 #### 2. Sección de tres columnas
-- Una fila final con **tres columnas** (`row` + `col-*`) que describan:
+- Una fila final con **tres columnas** que describan:
   - Servicios
   - Características
   - Funcionalidades
