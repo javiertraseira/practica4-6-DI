@@ -74,8 +74,9 @@ A partir de la página creada en la Parte 1, realiza las siguientes mejoras:
     - En pantallas **medianas y grandes (MD y LG)** el diseño se adaptará a dos columnas.
     - En pantallas **pequeñas (SM y XS)** el contenido se mostrará en una única columna.
 
+
 #### 2. Sección de tres columnas
-- Una fila final con **tres columnas** que describan:
+- Un bloque al final final con **tres columnas** que describan:
   - Servicios
   - Características
   - Funcionalidades
