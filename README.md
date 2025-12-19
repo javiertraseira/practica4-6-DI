@@ -1,33 +1,97 @@
 # Práctica 4.6 Página web en Bootstrap
 
+El **objetivo** de esta práctica es diseñar y maquetar una página web completa utilizando Bootstrap, practicando con diversos de sus componentes, el sistema de rejilla (grid system) y utilidades (utilities), así como prácticas de diseño responsive. 
+
+Esta práctica sirve para encaminar la entrega del **segundo proyecto trimestral** evaluable del módulo de Desarrollo de Interfaces.
+
 ## Parte 1
 
-Crea tu propia página web con los elementos de Bootstrap y que tenga al menos los siguientes elementos:
--   Una **barra de navegación** o *navbar* con varios enlaces y al menos un desplegable.
--   Un lenguaje de diseño coherente con lo que hemos visto hasta ahora.
--   Un contenedor principal que tenga los siguientes elementos:
-    - Una **tabla** formateada en Bootstrap con datos y al menos 10 entradas.
-    - Un carrusel de **imágenes**, galería, o similar, con imágenes generadas aleatoriamente de un tamaño concreto.
-    - Una fila con **tres columnas** que describan diferentes servicios o características de tu web. Cada columna debe incluir un icono (puedes usar *Bootstrap Icons*), un título y una breve descripción.
-    - Incluye una hoja de estilos CSS adicional para modificar varios elementos de tu diseño.
-    - Cualquier otro elemento de Bootstrap que quieras añadir y que sea coherente con la temática de tu página.
+La **temática** de la web será libre, pero deberá ser propia y coherente con todos sus elementos añadidos (colores, iconos, textos, imágenes y estructura).
 
-![](media/EjercicioBootstrap1.png)
+Deberá de incluir al menos los siguientes elementos:
+
+#### 1. Barra de navegación
+-  Una **barra de navegación** o *navbar* de Bootstrap.
+-  Deberá de contener al menos:
+    - Inclusión de un logo o título representativo de la temática
+    - Varios enlaces de navegación.
+    - Al menos un menú desplegable (*dropdown*).
+
+#### 2. Diseño general
+-   Utilizar un lenguaje de diseño coherente con lo que hemos visto hasta ahora:
+    - Colores, tipografías y estilos acordes a la temática elegida.
+    - Uso adecuado de clases Bootstrap y jerarquía visual.
+- Se deberá incluir una hoja de estilos CSS adicional donde se modifiquen:
+    - Ciertos componentes o colores personalizados.
+    - Espaciados, bordes, sombras u otros ajustes visuales.
+
+#### 3. Contenedor principal (container)
+Dentro del contenedor principal de la página, incluir los siguientes elementos: 
+
+##### a) Tabla de datos
+- Una tabla formateada con Bootstrap (`table`, `table-striped`, `table-hover`, etc.).
+- Debe contener al menos **10 filas de datos**.
+- El contenido:
+  - Será **estático en esta práctica**.
+  - Deberá estar relacionado con la temática de la web.
+  - **Nota:** Esta tabla se mejorará en prácticas posteriores obteniendo los datos desde una *API externa*.
+
+
+#### b) Carrusel o galería de imágenes
+- Un **carrusel de Bootstrap** o galería similar.
+- Las imágenes:
+  - Pueden ser generadas de forma aleatoria desde servicios como *Lorem Picsum* o similares.
+  - Deben tener un tamaño coherente y uniforme.
+- Se valorará:
+  - Inclusión de títulos o descripciones en las diapositivas.
+  - Uso correcto de controles y transiciones.
+
+#### d) Componentes adicionales y valorables
+Añade varios de los siguientes componentes *Bootstrap* valorables que tengan sentido dentro de tu web, por ejemplo:
+- Cards
+- Alerts
+- Badges
+- List groups
+- Breadcrumbs
+- Modales
+- Tooltips o popovers
+
 
 ## Parte 2
 
-Mejora la página anterior para que el contenedor principal ahora tenga al menos **dos columnas**:
-- Diseñar el comportamiento del contenedor para que sea Responsive.
-- En una de ellas habrá un **formulario** principal con al menos 6 elementos de formulario (distintos campos de entrada, controles, checks..)
-- Deberá de hacerse una validación básica de los elementos del formulario utilizando el estándar de HTML5.
+A partir de la página creada en la Parte 1, realiza las siguientes mejoras:
+
+
+#### 1. Contenedor en dos columnas
+- El contenedor principal pasará a tener **al menos dos columnas**.
+- Debe diseñarse correctamente el comportamiento **responsive**:
+  - En pantallas grandes se mostrarán en columnas.
+  - En pantallas pequeñas se adaptarán en una sola columna.
+
+
+#### 2. Formulario principal
+En una de las columnas incluye un **formulario completo** que contenga:
+
+- **Al menos 6 elementos de formulario**, por ejemplo:
+  - Campos de texto (`input text`, `email`, `password`…)
+  - Selectores (`select`)
+  - Checkboxes o radio buttons
+  - Textarea
+  - Botón de envío
+- Todos los campos deben estar **correctamente etiquetados** (`label`)
 
 ![](media/EjercicioBootstrap2.png)
 
-
 ## Valoración y testing
 
-Se valorará:
-- La utilización de componentes variados de Bootstrap.
-- La adaptabilidad a diferentes tamaños de pantalla.
-- La estética general y funcionalidad de la página.
-- Agregar una **tabla de pruebas** para la validación de los elementos del formulario.
+Para la evaluación de la práctica se tendrá en cuenta:
+
+- Uso correcto y variado de **componentes Bootstrap**.
+- Aplicación adecuada del **sistema de rejilla y diseño responsive**.
+- Coherencia estética y visual con la **temática elegida**.
+- Claridad y organización del código *HTML* y *CSS*.
+- Inclusión de una **tabla de pruebas** donde se documenten:
+  - Casos de validación del formulario.
+  - Campos correctos e incorrectos.
+  - Resultado esperado y resultado obtenido.
+- **Documentación** en formato *markdown* con capturas de la web y su funcionamiento.
