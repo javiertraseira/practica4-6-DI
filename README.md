@@ -11,14 +11,14 @@ La **temática** de la web será libre, pero deberá ser propia y coherente con 
 Deberá de incluir al menos los siguientes elementos:
 
 #### 1. Barra de navegación
--  Una **barra de navegación** o *navbar* de Bootstrap.
--  Deberá de contener al menos:
+- Una **barra de navegación** o *navbar* de Bootstrap.
+- Deberá de contener al menos:
     - Inclusión de un logo o título representativo de la temática
     - Varios enlaces de navegación.
     - Al menos un menú desplegable (*dropdown*).
 
 #### 2. Diseño general
--   Utilizar un lenguaje de diseño coherente con lo que hemos visto hasta ahora:
+- Utilizar un lenguaje de diseño coherente con lo que hemos visto hasta ahora:
     - Colores, tipografías y estilos acordes a la temática elegida.
     - Uso adecuado de clases Bootstrap y jerarquía visual.
 - Se deberá incluir una hoja de estilos CSS adicional donde se modifiquen:
@@ -33,29 +33,23 @@ Dentro del contenedor principal de la página, incluir los siguientes elementos:
 - Una tabla formateada con Bootstrap (`table`, `table-striped`, `table-hover`, etc.).
 - Debe contener al menos **10 filas de datos**.
 - El contenido:
-  - Será **estático en esta práctica**.
+  - Será contenido **estático** para esta práctica.
   - Deberá estar relacionado con la temática de la web.
-  - **Nota:** Esta tabla se mejorará en prácticas posteriores obteniendo los datos desde una *API externa*.
+  - *Nota:* Esta tabla se mejorará en prácticas posteriores obteniendo los datos desde una *API externa*.
 
 
 #### b) Carrusel o galería de imágenes
-- Un **carrusel de Bootstrap** o galería similar.
+- Un **carrusel de Bootstrap** o galería similar con controles o transiciones.
 - Las imágenes:
-  - Pueden ser generadas de forma aleatoria desde servicios como *Lorem Picsum* o similares.
-  - Deben tener un tamaño coherente y uniforme.
-- Se valorará:
-  - Inclusión de títulos o descripciones en las diapositivas.
-  - Uso correcto de controles y transiciones.
+  - Pueden ser generadas de forma aleatoria desde servicios como *Lorem Picsum* o similares tal y como hicimos en prácticas anteriores.
+  - Deberán tener un tamaño coherente y uniforme.
 
 #### c) Footer
 - Incluye un **footer** al final de la página utilizando componentes de Bootstrap.
 - Debe contener, al menos:
   - Información básica (autor, curso, nombre de la web o copyright).
   - Enlaces secundarios o iconos a redes sociales (reales o ficticios).
-- Se valorará:
-  - Que el footer mantenga coherencia visual con el resto de la página.
-  - Uso del sistema de rejilla o utilidades de Bootstrap para su maquetación.
-
+  - Mantener la coherencia visual y uso de rejilla con el resto de la página.
 
 #### d) Componentes adicionales y valorables
 Añade varios de los siguientes componentes *Bootstrap* valorables que tengan sentido dentro de tu web, por ejemplo:
@@ -107,12 +101,13 @@ En una de las columnas incluye un **formulario completo** que contenga:
 
 Para la evaluación de la práctica se tendrá en cuenta:
 
-- Uso correcto y variado de **componentes Bootstrap**.
+- Uso correcto y variado de **componentes Bootstrap** obligatorios y los opcionales.
 - Aplicación adecuada del **sistema de rejilla y diseño responsive**.
-- Coherencia estética y visual con la **temática elegida**.
+- Coherencia estética y visual con la **temática elegida**
 - Claridad y organización del código *HTML* y *CSS*.
+- Inclusión de títulos o descripciones en las diapositivas o galerías avanzadas.
 - Inclusión de una **tabla de pruebas** donde se documenten:
   - Casos de validación del formulario.
   - Campos correctos e incorrectos.
   - Resultado esperado y resultado obtenido.
-- **Documentación** en formato *markdown* con capturas de la web y su funcionamiento.
+- **Documentación** de la web en formato *markdown* con capturas de la web y su funcionamiento.
