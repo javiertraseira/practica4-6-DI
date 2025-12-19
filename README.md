@@ -106,9 +106,11 @@ Para la evaluación de la práctica se tendrá en cuenta:
 - Uso correcto y variado de **componentes Bootstrap** obligatorios y los opcionales.
 - Aplicación adecuada del **sistema de rejilla y diseño responsive**.
 - Coherencia estética y visual con la **temática elegida**
+- Funcionamiento adecuado del comportamiento responsive para las diferentes pantallas.
 - Claridad y organización del código *HTML* y *CSS*.
 - Inclusión de títulos o descripciones en las diapositivas o galerías avanzadas.
 - Inclusión de una **tabla de pruebas** donde se documenten:
+  - Validaciones responsive.
   - Casos de validación del formulario.
   - Campos correctos e incorrectos.
   - Resultado esperado y resultado obtenido.
